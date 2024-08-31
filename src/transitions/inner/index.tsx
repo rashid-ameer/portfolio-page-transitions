@@ -1,6 +1,6 @@
 import Header from "../../components/header";
 import styles from "./styles.module.scss";
-import { Variants, animate, motion } from "framer-motion";
+import { Variants, motion } from "framer-motion";
 
 function Inner({ children }: { children: React.ReactNode }) {
   const anim = (variants: Variants) => ({

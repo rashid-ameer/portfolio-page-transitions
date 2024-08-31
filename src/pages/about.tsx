@@ -1,8 +1,8 @@
-import Inner from "../transitions/inner";
+import Stairs from "../transitions/stairs";
 
 function AboutPage() {
   return (
-    <Inner>
+    <Stairs>
       <div className="p-3">
         <h2 className="text-3xl font-bold">About</h2>
         <p className="mt-3">
@@ -16,7 +16,7 @@ function AboutPage() {
           fuga consequuntur rerum voluptas molestias. neque ex!
         </p>
       </div>
-    </Inner>
+    </Stairs>
   );
 }
 export default AboutPage;

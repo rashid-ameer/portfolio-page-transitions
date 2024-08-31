@@ -1,0 +1,32 @@
+.page {
+  min-height: 100vh;
+
+  .background {
+    z-index: 1;
+    pointer-events: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+  }
+
+  .stairs {
+    background-color: black;
+    z-index: 2;
+    pointer-events: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    .stair {
+      flex: 1;
+      background-color: black;
+    }
+  }
+}
