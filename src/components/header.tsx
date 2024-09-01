@@ -24,14 +24,14 @@ function Header() {
           <li>
             <Link
               to="/contact"
-              onClick={() => handleLinkClick("/about")}>
+              onClick={() => handleLinkClick("/contact")}>
               Contact
             </Link>
           </li>
           <li>
             <Link
               to="/about"
-              onClick={() => handleLinkClick("/contact")}>
+              onClick={() => handleLinkClick("/about")}>
               About
             </Link>
           </li>
