@@ -1,7 +1,6 @@
 "use client";
 import { Variants, motion } from "framer-motion";
 import styles from "./styles.module.scss";
-import { useLocation } from "react-router-dom";
 import { usePathname } from "../../hooks/use-pathname";
 
 const anim = (variants: Variants) => ({
@@ -26,17 +25,17 @@ function Curve({ children }: { children: React.ReactNode }) {
     },
     enter: {
       opacity: 0,
-      transition: { duration: 1, ease: [0.76, 0, 0.24, 1] },
+      transition: { duration: 1, delay: 0.35, ease: [0.76, 0, 0.24, 1] },
       top: -100,
 
       transitionEnd: {
-        top: "70%",
+        top: "60%",
       },
     },
     exit: {
       opacity: 1,
       top: "50%",
-      transition: { duration: 1, ease: [0.76, 0, 0.24, 1] },
+      transition: { duration: 0.5, delay: 0.65, ease: [0.33, 1, 0.68, 1] },
     },
   };
 
