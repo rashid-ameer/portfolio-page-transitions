@@ -1,0 +1,32 @@
+.page {
+  min-height: 100vh;
+
+  svg {
+    width: 140vw;
+    height: calc(100vh + 600px);
+    transform-origin: top;
+    position: fixed;
+    top: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    z-index: 2;
+  }
+
+  @media (width <= 768px) {
+    svg {
+      width: 180vw;
+    }
+  }
+
+  .route {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-weight: 500;
+    color: #fff;
+    z-index: 3;
+  }
+}

@@ -20,7 +20,7 @@ function Stairs({ children }: { children: React.ReactNode }) {
       y: "100%",
       transition: {
         delay: 0.06 * i,
-        duration: 0.3,
+        duration: 0.5,
       },
       transitionEnd: {
         y: 0,
@@ -32,7 +32,7 @@ function Stairs({ children }: { children: React.ReactNode }) {
       transformOrigin: "top",
       transition: {
         delay: 0.06 * i,
-        duration: 0.3,
+        duration: 0.5,
       },
     }),
   };
@@ -44,13 +44,13 @@ function Stairs({ children }: { children: React.ReactNode }) {
     enter: {
       backgroundColor: "rgba(0,0,0,0)",
       transition: {
-        duration: 0.3,
+        duration: 0.5,
       },
     },
     exit: {
       backgroundColor: "rgba(0,0,0,0.5)",
       transition: {
-        duration: 0.3,
+        duration: 0.5,
       },
     },
   };

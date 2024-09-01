@@ -1,8 +1,8 @@
-import Stairs from "../transitions/stairs";
+import Curve from "../transitions/curve/page";
 
 function HomePage() {
   return (
-    <Stairs>
+    <Curve>
       <div className="p-3">
         <h2 className="text-3xl font-bold">Home</h2>
         <p className="mt-3">
@@ -16,7 +16,7 @@ function HomePage() {
           fuga consequuntur rerum voluptas molestias. neque ex!
         </p>
       </div>
-    </Stairs>
+    </Curve>
   );
 }
 export default HomePage;
